@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg {
+    background: url('/smile.jpg') no-repeat center center/cover;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    position: absolute;
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
