@@ -33,6 +33,11 @@ body {
     font-weight: bold;
 }
 
+button #theme {
+    background: #000;
+    color: #fff;
+}
+
 .btn:focus {
     outline: none;
 }
@@ -40,4 +45,5 @@ body {
 .btn:hover {
     opacity: 0.9;
 }
+
 
