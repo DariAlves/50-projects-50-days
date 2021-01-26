@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('mortal.jpg') center center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: color;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.btn {
+    background: rgb(160, 16, 16);
+    border-radius: 5px;
+    border: none;
+    color: #fafafa;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
