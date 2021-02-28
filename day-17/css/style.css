@@ -1,0 +1,137 @@
+/* Variables */
+/* Reset */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #22254b;
+}
+
+/* Header */
+header {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: #373b69;
+}
+
+header .search {
+  background: transparent;
+  border: 2px solid #22254b;
+  border-radius: 50px;
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  color: #fff;
+}
+
+header .search::-webkit-input-placeholder {
+  color: #7378c5;
+}
+
+header .search:-ms-input-placeholder {
+  color: #7378c5;
+}
+
+header .search::-ms-input-placeholder {
+  color: #7378c5;
+}
+
+header .search::placeholder {
+  color: #7378c5;
+}
+
+header .search:focus {
+  outline: none;
+  background: #22254b;
+}
+
+/* Main */
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main .movie {
+  width: 300px;
+  margin: 1rem;
+  background: #373b69;
+  -webkit-box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+main .movie img {
+  width: 100%;
+}
+
+main .movie .movie-info {
+  color: #eee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem 1rem 1rem;
+  letter-spacing: 0.5px;
+}
+
+main .movie .movie-info span {
+  background: #22254b;
+  padding: .25rem .5rem;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+main .movie .movie-info span.green {
+  color: lightgreen;
+}
+
+main .movie .movie-info span.orange {
+  color: orange;
+}
+
+main .movie .movie-info span.red {
+  color: red;
+}
+
+main .movie .overview {
+  background: #fafafa;
+  padding: 2rem;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  max-width: 100%;
+  -webkit-transform: translateY(101%);
+          transform: translateY(101%);
+  -webkit-transition: -webkit-transform 0.3s ease-in;
+  transition: -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
+}
+
+main .movie:hover .overview {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+/*# sourceMappingURL=style.css.map */
